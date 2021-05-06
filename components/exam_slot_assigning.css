@@ -1,0 +1,27 @@
+.amrita {
+  position: relative;
+  left: 534px;
+  top: 70px;
+}
+.ff {
+  position: relative;
+  top: 20px;
+  left: 1300px;
+}
+.rrt {
+  background-image: url("https://wallpapertag.com/wallpaper/full/b/9/6/350851-download-free-website-background-1920x1080-for-mobile-hd.jpg");
+  height: 750px;
+  overflow: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#ExamSchedules {
+  position: relative;
+  top: 60px;
+}
+.bbut {
+  position: relative;
+  left: 10000px;
+  top: 10px;
+}

@@ -1,0 +1,27 @@
+.Admin{
+    
+    background-image:url('https://tse1.mm.bing.net/th?id=OIP.ODtYTrTqz2Rc311z0ncXAAHaEx&pid=Api&P=0&w=277&h=180');
+    height: 750px;
+    overflow: auto;
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Guns{
+    position: relative;
+    top:130px;
+    left:525px;
+}
+.llink{
+    position: right;
+    padding-left: 200px;
+}
+.ham{
+    position: relative;
+    left:1400px;
+    top:10px;
+}
+.bbutton{
+    position: relative;
+    left:20px;
+}

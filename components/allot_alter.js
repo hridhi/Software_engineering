@@ -76,8 +76,9 @@ catch{
 }
   
   return (
+    <span>
    <div className='rrt'>
-        <Link to="/ahome"><Button variant="primary" className='ff'>Home</Button></Link>
+        <Button variant="primary" className='ff' to="/ahome">Home</Button>
         <div className="amrita">
        <Card border="dark" style={{ width: '30rem' }}>
           <Card.Body>
@@ -110,6 +111,7 @@ catch{
         </Card>
       </div>
     </div>
+    </span>
   );
 }
 

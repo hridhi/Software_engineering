@@ -63,8 +63,9 @@ else{
   
 
   return (
+    <span>
    <div>
-        <Link to="/ahome"><Button variant="primary" className="ff" id="Home">Home</Button></Link>
+        <Button variant="primary" className="ff" id="Home" to="/ahome">Home</Button>
         <br></br><br></br>
         <h1>Allotment Details</h1>
         <br></br>
@@ -113,6 +114,7 @@ else{
 <br></br>
 </div>
     </div>
+    </span>
   );
 }
 

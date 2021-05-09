@@ -114,6 +114,17 @@ db.collection("FacultyDetails").doc(request.Faculty_id).update({
       console.error("Error removing document: ", error);
 
   });
+  alert("succesfull alloted")
+// var allot="AllotmentD: "+request.date+" AllotmentT: "+request.time+" Classroom: "+request.class
+// db.collection("FacultyDetails").doc(request.Faculty_id).update({
+//   Allotments: arrayUnion(noti),
+// })
+//   .then(function () {
+//       console.log("Document successfully updated!");
+//   }).catch(function (error) {
+//       console.error("Error removing document: ", error);
+
+//   });
 }
 //.add_details(request.time);
 }

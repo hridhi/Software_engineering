@@ -19,6 +19,7 @@ import view from "./Componets/view_activity";
 import swap from "./Componets/swap";
 import anotify from "./Componets/anotifications";
 import fnotify from "./Componets/fnotifications";
+import Adelete from "./Componets/Allot_delete";
 import { BrowserRouter, Route,Switch } from 'react-router-dom';
 import AllocationTime from './Componets/view_allot';
 class App extends Component {
@@ -44,7 +45,7 @@ class App extends Component {
              <Route path="/anotify" component={anotify}></Route>
              <Route path="/fnotify" component={fnotify} exact/>
              <Route path="/AllocationTime" component={AllocationTime} exact/>
-             
+             <Route path="/Adelete" component={Adelete} exact/>
              </Switch>
              </BrowserRouter>
       
